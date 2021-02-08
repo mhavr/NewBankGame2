@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		FAB0BA9D25D16F8600E488E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BA9C25D16F8600E488E1 /* AppDelegate.swift */; };
 		FAB0BA9F25D16F8600E488E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BA9E25D16F8600E488E1 /* SceneDelegate.swift */; };
-		FAB0BAA125D16F8600E488E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BAA025D16F8600E488E1 /* ViewController.swift */; };
 		FAB0BAA425D16F8600E488E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0BAA225D16F8600E488E1 /* Main.storyboard */; };
 		FAB0BAA625D16F8700E488E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB0BAA525D16F8700E488E1 /* Assets.xcassets */; };
 		FAB0BAA925D16F8700E488E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0BAA725D16F8700E488E1 /* LaunchScreen.storyboard */; };
 		FAB0BAB425D16F8700E488E1 /* NewBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BAB325D16F8700E488E1 /* NewBankTests.swift */; };
 		FAB0BABF25D16F8700E488E1 /* NewBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BABE25D16F8700E488E1 /* NewBankUITests.swift */; };
+		FAB0BAD325D16FB400E488E1 /* OneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BAD225D16FB400E488E1 /* OneVC.swift */; };
+		FAB0BAD825D1703100E488E1 /* TwoDepositVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BAD725D1703100E488E1 /* TwoDepositVC.swift */; };
+		FAB0BADD25D1704C00E488E1 /* TwoCreditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BADC25D1704C00E488E1 /* TwoCreditVC.swift */; };
+		FAB0BAED25D18C6F00E488E1 /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BAEC25D18C6F00E488E1 /* ThreeVC.swift */; };
+		FAB0BAFD25D1C8A600E488E1 /* FourDepositVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BAFC25D1C8A600E488E1 /* FourDepositVC.swift */; };
+		FAB0BB0225D1C8D200E488E1 /* FourCreditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0BB0125D1C8D200E488E1 /* FourCreditVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		FAB0BA9925D16F8600E488E1 /* NewBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB0BA9C25D16F8600E488E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB0BA9E25D16F8600E488E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAB0BAA025D16F8600E488E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAB0BAA325D16F8600E488E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB0BAA525D16F8700E488E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB0BAA825D16F8700E488E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		FAB0BABA25D16F8700E488E1 /* NewBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB0BABE25D16F8700E488E1 /* NewBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBankUITests.swift; sourceTree = "<group>"; };
 		FAB0BAC025D16F8700E488E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0BAD225D16FB400E488E1 /* OneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneVC.swift; sourceTree = "<group>"; };
+		FAB0BAD725D1703100E488E1 /* TwoDepositVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDepositVC.swift; sourceTree = "<group>"; };
+		FAB0BADC25D1704C00E488E1 /* TwoCreditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCreditVC.swift; sourceTree = "<group>"; };
+		FAB0BAEC25D18C6F00E488E1 /* ThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
+		FAB0BAFC25D1C8A600E488E1 /* FourDepositVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourDepositVC.swift; sourceTree = "<group>"; };
+		FAB0BB0125D1C8D200E488E1 /* FourCreditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCreditVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,13 @@
 			children = (
 				FAB0BA9C25D16F8600E488E1 /* AppDelegate.swift */,
 				FAB0BA9E25D16F8600E488E1 /* SceneDelegate.swift */,
-				FAB0BAA025D16F8600E488E1 /* ViewController.swift */,
 				FAB0BAA225D16F8600E488E1 /* Main.storyboard */,
+				FAB0BAD225D16FB400E488E1 /* OneVC.swift */,
+				FAB0BAD725D1703100E488E1 /* TwoDepositVC.swift */,
+				FAB0BADC25D1704C00E488E1 /* TwoCreditVC.swift */,
+				FAB0BAEC25D18C6F00E488E1 /* ThreeVC.swift */,
+				FAB0BAFC25D1C8A600E488E1 /* FourDepositVC.swift */,
+				FAB0BB0125D1C8D200E488E1 /* FourCreditVC.swift */,
 				FAB0BAA525D16F8700E488E1 /* Assets.xcassets */,
 				FAB0BAA725D16F8700E488E1 /* LaunchScreen.storyboard */,
 				FAB0BAAA25D16F8700E488E1 /* Info.plist */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB0BAA125D16F8600E488E1 /* ViewController.swift in Sources */,
+				FAB0BAFD25D1C8A600E488E1 /* FourDepositVC.swift in Sources */,
+				FAB0BADD25D1704C00E488E1 /* TwoCreditVC.swift in Sources */,
+				FAB0BAED25D18C6F00E488E1 /* ThreeVC.swift in Sources */,
+				FAB0BAD825D1703100E488E1 /* TwoDepositVC.swift in Sources */,
 				FAB0BA9D25D16F8600E488E1 /* AppDelegate.swift in Sources */,
+				FAB0BB0225D1C8D200E488E1 /* FourCreditVC.swift in Sources */,
 				FAB0BA9F25D16F8600E488E1 /* SceneDelegate.swift in Sources */,
+				FAB0BAD325D16FB400E488E1 /* OneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
